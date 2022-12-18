@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+
+:root {
+    --monserrat: "Montserrat", sans-serif;
+    --fraunces : "Fraunces", serif;
+}
+
+
+*{
+    
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: rgba(250, 217, 177, 0.365);
+    
+
+}
+
+/* container */
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.description-product-container{
+    padding: 37px;
+    width: 340px;
+    height: 480px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    
+
+}
+
+h1{
+    width: 200px;
+    margin-bottom: 20px;
+    font-family: var(--fraunces);
+    
+}
+
+h5{
+    color: rgba(128, 128, 128, 0.918);
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-family: var(--monserrat);
+    font-size: 11px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-family: var(--monserrat);
+    color: rgba(128, 128, 128, 0.918);
+
+
+}
+
+.price > p{
+    font-size: 40px;
+    color: rgba(20, 113, 76, 0.938);
+    font-family: var(--fraunces);
+
+    
+}
+
+span{
+    color: rgba(128, 128, 128, 0.918);
+    text-decoration: line-through;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: 30px;
+    font-family: var(--monserrat);
+
+    
+    
+    
+}
+
+.add-to-cart{
+    text-align: center;
+    
+    margin-top: 40px;
+    
+    
+}
+
+button{
+    width: 266px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: rgba(20, 113, 76, 0.938);
+    transition: all ease-in-out 0.2s;
+    color: white;
+   
+}
+
+button:hover{
+    background-color: rgba(17, 97, 65, 0.997);
+    cursor: pointer;
+    
+}
+
+button:active{
+    background-color: rgba(20, 113, 76, 0.938);
+
+
+}
+
+
+
+/* Images */
+.product-image{
+    width: 340px;
+    height: 480px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+
+}
+
+.cart{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
